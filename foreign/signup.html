@@ -1,0 +1,72 @@
+
+<html>
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body background="queen.jpg">
+  <h1 class="inp" style="text-align: center">Sign Up</h1>
+
+      <form method="post" action="signup_add.php">
+    <center>
+    <table class="inp" style="width: 400px;">
+        <tr>
+            <td style="width: 35%;">
+
+     NAME:
+            </td>
+            <td style="width: 65%;">
+                <input id="name" type="text" name="name" maxlength="52" />
+
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 35%;">
+        EMAIL:
+            </td>
+            <td style="width: 65%;">
+                <input id="email" type="text" name="email" maxlength="2048" />
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 35%;">
+                  PASSWORD:
+            </td>
+            <td style="width: 65%;">
+                <input id="password" type="PASSWORD" name="password" maxlength="16" />
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 35%;">
+      PHONE NO:
+            </td>
+            <td style="width: 65%;">
+                <input id="phone_no" type="text" name="phone_no" maxlength="16" />
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 35%;">
+          GENDER:
+            </td>
+            <td style="width: 65%;">
+                <input id="gender" type="radio" value="Male" name="gender" checked/>Male
+                <input id="gender" type="radio" value="Female" name="gender" />Female
+            </td>
+        </tr>
+	<tr>
+	    <td style = "width:35%;">
+ 	          CURRENCY:
+	    </td>
+	    <td style = "width:35%;"><input type="radio" id="group3" name="group3" value="INR" checked>INR<input type="radio" id="group3" name="group3" value="USD">USD</td>
+	</tr>
+        <tr>
+            <td colspan="2" style="width: 100%;">
+              <button type="submit"  name="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+    </center>
+    </form>
+</body>
+</html>
